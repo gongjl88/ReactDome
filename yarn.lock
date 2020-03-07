@@ -1,0 +1,16 @@
+## 第一个React项目
+
+
+
+ <CSSTransition
+                    in={this.state.show}
+                    timeout={1000}
+                    classNames='fade'
+                    unmountOnExit
+                    onEntered={(el) => {
+                        el.style.color = 'red'
+                    }}
+                    // 首次加载也有动画效果
+                    appear={true}
+                >
+                </CSSTransition>

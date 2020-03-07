@@ -1,0 +1,25 @@
+/* 入场动画得执行 挂载样式  fade-enter*/
+.fade-enter,.fade-appear {
+    opacity: 0;
+}
+/*执行完成之前*/
+.fade-enter-active,.fade-appear-active{
+opacity: 1;
+transition: opacity 1s ease-in;
+}
+.fade-enter-done {
+    opacity: 1;
+}
+
+.fade-exit{
+    opacity: 1;
+}
+
+.fade-exit-active{
+    opacity: 0.5;
+    transition: opacity 1s ease-in;
+}
+
+.fade-exit-active{
+    opacity: 0;
+}
